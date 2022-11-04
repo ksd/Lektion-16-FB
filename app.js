@@ -10,12 +10,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCLCa6oletM3mUdBzDp0Bxg8CHOWcHaWwI",
-  authDomain: "cars-17ba7.firebaseapp.com",
-  projectId: "cars-17ba7",
-  storageBucket: "cars-17ba7.appspot.com",
-  messagingSenderId: "771193404290",
-  appId: "1:771193404290:web:a99ad83f077a40ab912d9b"
+  // COPY YOUR OWN
 }
 
 const firebase_app = initializeApp(firebaseConfig)
