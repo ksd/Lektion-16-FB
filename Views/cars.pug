@@ -1,0 +1,8 @@
+html 
+  head 
+    title 🚙 cars
+  body 
+    ul 
+      each bil in biler
+        li
+          a(href='/car/'+bil.docID)= bil.brand
