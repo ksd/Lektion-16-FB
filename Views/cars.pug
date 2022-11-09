@@ -1,8 +1,10 @@
 html 
   head 
     title 🚙 cars
+    script(src="js/functions.js") 
   body 
     ul 
       each bil in biler
         li
+          a(href='javascript:deleteCar(\''+ bil.docID +'\')') DELETE
           a(href='/car/'+bil.docID)= bil.brand
